@@ -130,13 +130,14 @@ export default function Calendar({
 
           const ring =
             st.today && !st.logged ? (
+              // Centered with auto-margins (not a transform) so the reveal's
+              // "pop" animation, which resets transform to none, can't offset it.
               <span
                 data-anim="pop"
                 style={{
                   position: "absolute",
-                  top: "50%",
-                  left: "50%",
-                  transform: "translate(-50%,-50%)",
+                  inset: 0,
+                  margin: "auto",
                   width: cellH - 6,
                   height: cellH - 6,
                   borderRadius: "50%",
