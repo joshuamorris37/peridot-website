@@ -42,7 +42,8 @@ export default function PrivacyPage() {
           className="font-petrona"
           style={{ fontSize: "clamp(17px,2.2vw,21px)", lineHeight: 1.6, color: "var(--ink-soft)", margin: "22px 0 0" }}
         >
-          That&rsquo;s the whole policy, really. The rest is just what it means.
+          That&rsquo;s the whole policy, really. The rest is just what it means. Your privacy is
+          just that — yours.
         </p>
       </Reveal>
 

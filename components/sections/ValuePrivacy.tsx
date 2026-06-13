@@ -28,8 +28,8 @@ export default function ValuePrivacy() {
           </h2>
           <p className="font-petrona text-body text-ink-2" style={{ margin: "20px 0 0", maxWidth: "44ch" }}>
             Everything lives on the phone. No account, no email, nothing to breach, nothing to
-            subpoena, nothing to sell. There&rsquo;s no server behind Peridot — so there&rsquo;s
-            nothing to hand over, because there was never anything to hand over.
+            sell. There&rsquo;s no server behind Peridot — so there&rsquo;s nothing to hand over,
+            because there was never anything to hand over. Your privacy is just that — yours.
           </p>
         </div>
         <div style={{ border: "1px solid rgba(38,42,28,0.12)", borderRadius: 18, overflow: "hidden" }}>
