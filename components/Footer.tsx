@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Wordmark from "./Wordmark";
+import { ComingSoonCta } from "./Cta";
 
 export default function Footer() {
   return (
@@ -36,20 +37,10 @@ export default function Footer() {
               Get the app
             </div>
             <div className="mt-4 flex flex-col items-start gap-3">
-              <a
-                href="#"
-                className="inline-flex items-center rounded-pill bg-olive font-figtree font-bold text-ground no-underline shadow-btn-foot transition-colors hover:bg-olive-deep"
-                style={{ height: 46, padding: "0 22px", fontSize: 15 }}
-              >
-                Download for iPhone
-              </a>
-              <a
-                href="#"
-                className="inline-flex items-center rounded-pill border-[1.5px] border-olive font-figtree font-bold text-olive no-underline transition-colors hover:bg-olive hover:text-ground"
-                style={{ height: 46, padding: "0 22px", fontSize: 15 }}
-              >
-                Get it on Android
-              </a>
+              <ComingSoonCta tone="light" height={46} />
+              <span className="font-petrona text-ink-3" style={{ fontSize: 14, lineHeight: 1.5 }}>
+                For iPhone &amp; Android.
+              </span>
             </div>
           </div>
 

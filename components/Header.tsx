@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Wordmark from "./Wordmark";
+import { ComingSoonCta } from "./Cta";
 
 export default function Header() {
   return (
@@ -24,13 +25,7 @@ export default function Header() {
         >
           <Wordmark fontSize={25} glint />
         </Link>
-        <a
-          href="#"
-          className="inline-flex items-center rounded-pill bg-olive font-figtree font-bold text-ground no-underline shadow-btn-sm transition-colors hover:bg-olive-deep"
-          style={{ height: 44, padding: "0 22px", fontSize: "14.5px", letterSpacing: "-0.01em" }}
-        >
-          Get Peridot — $9.99 once
-        </a>
+        <ComingSoonCta tone="light" height={44} compact />
       </div>
     </header>
   );

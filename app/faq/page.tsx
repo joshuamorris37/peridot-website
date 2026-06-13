@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Reveal from "@/components/Reveal";
 import FaqAccordion from "@/components/FaqAccordion";
+import { ComingSoonCta } from "@/components/Cta";
 
 export const metadata: Metadata = {
   title: "The honest answers",
@@ -32,13 +33,7 @@ export default function FaqPage() {
       <FaqAccordion />
 
       <div className="flex flex-wrap items-center" style={{ marginTop: "clamp(40px,6vw,64px)", gap: 18 }}>
-        <a
-          href="#"
-          className="inline-flex items-center rounded-pill bg-olive font-figtree font-bold text-ground no-underline shadow-btn transition-colors hover:bg-olive-deep"
-          style={{ height: 50, padding: "0 28px", fontSize: "15.5px" }}
-        >
-          Get Peridot — $9.99 once
-        </a>
+        <ComingSoonCta tone="light" height={50} />
         <Link
           href="/privacy"
           className="inline-flex items-center font-figtree font-semibold text-ink underline decoration-ink/30 underline-offset-4 transition-[text-decoration-color] hover:decoration-ink"

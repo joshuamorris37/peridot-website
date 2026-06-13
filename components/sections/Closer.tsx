@@ -1,5 +1,6 @@
 import Reveal from "../Reveal";
 import Mark from "../Mark";
+import { ComingSoonCta } from "../Cta";
 
 // Closer — ink ground, the giant wordmark and the third-touch line.
 export default function Closer() {
@@ -24,20 +25,7 @@ export default function Closer() {
         >
           Peridot. Period.
         </div>
-        <a
-          href="#"
-          className="inline-flex items-center bg-chartreuse font-figtree font-bold text-ink no-underline shadow-closer-cta transition-colors hover:bg-chartreuse-hover"
-          style={{
-            height: 52,
-            padding: "0 30px",
-            borderRadius: 26,
-            fontSize: 16,
-            letterSpacing: "-0.01em",
-            marginTop: "clamp(34px,4.6vw,46px)",
-          }}
-        >
-          Get Peridot — $9.99 once
-        </a>
+        <ComingSoonCta tone="dark" height={52} className="mt-[clamp(34px,4.6vw,46px)]" />
       </Reveal>
     </section>
   );

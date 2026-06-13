@@ -1,5 +1,5 @@
 import { HeroMark } from "../Mark";
-import { PrimaryButton, TextLink } from "../Cta";
+import { ComingSoonCta, ComingSoonNote } from "../Cta";
 import HeroGrid from "../mockups/HeroGrid";
 
 // The signature moment. The ring draws on, the dot drops in, then the copy
@@ -53,11 +53,11 @@ export default function Hero() {
         </p>
 
         <div
-          className="pd-hero-3 flex flex-wrap items-center justify-center"
-          style={{ gap: "clamp(14px,2vw,22px)", marginTop: "clamp(28px,3.4vw,40px)" }}
+          className="pd-hero-3 flex flex-col items-center"
+          style={{ gap: 14, marginTop: "clamp(28px,3.4vw,40px)" }}
         >
-          <PrimaryButton>Download for iPhone</PrimaryButton>
-          <TextLink>Get it on Android</TextLink>
+          <ComingSoonCta tone="light" height={52} />
+          <ComingSoonNote />
         </div>
       </div>
     </section>
