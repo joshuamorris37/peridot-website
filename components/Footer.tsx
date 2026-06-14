@@ -72,19 +72,53 @@ export default function Footer() {
         </div>
 
         <div
-          className="flex flex-wrap items-center justify-between gap-3 border-t"
+          className="border-t"
           style={{
             marginTop: "clamp(40px,6vw,64px)",
             paddingTop: 24,
             borderColor: "rgba(38,42,28,0.10)",
           }}
         >
-          <span className="font-figtree text-ink-3" style={{ fontSize: 13 }}>
-            © 2026 Peridot
-          </span>
-          <span className="font-petrona italic text-ink-3" style={{ fontSize: 14 }}>
-            A period tracker. That&rsquo;s it.
-          </span>
+          {/* Parent-company credit — Peridot is built by Filament App Studios */}
+          <div className="flex justify-center" style={{ marginBottom: 22 }}>
+            <a
+              href="https://www.filamentappstudios.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Built by Filament App Studios (opens in a new tab)"
+              className="group inline-flex items-center justify-center"
+              style={{ minHeight: 44, gap: 10, padding: "4px 8px" }}
+            >
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/filament-orb.png"
+                alt=""
+                width={26}
+                height={26}
+                loading="lazy"
+                decoding="async"
+                className="opacity-80 transition-opacity group-hover:opacity-100"
+                style={{ display: "block" }}
+              />
+              <span className="font-figtree text-ink-3" style={{ fontSize: "13.5px", letterSpacing: "-0.01em" }}>
+                Built by{" "}
+                <span className="font-semibold text-ink-2 transition-colors group-hover:text-ink">
+                  Filament
+                </span>{" "}
+                App Studios
+              </span>
+            </a>
+          </div>
+
+          {/* Bottom row */}
+          <div className="flex flex-wrap items-center justify-between gap-3">
+            <span className="font-figtree text-ink-3" style={{ fontSize: 13 }}>
+              © 2026 Peridot
+            </span>
+            <span className="font-petrona italic text-ink-3" style={{ fontSize: 14 }}>
+              A period tracker. That&rsquo;s it.
+            </span>
+          </div>
         </div>
       </div>
     </footer>
