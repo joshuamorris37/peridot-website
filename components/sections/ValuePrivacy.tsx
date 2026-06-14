@@ -2,11 +2,11 @@ import Reveal from "../Reveal";
 
 const ROWS = [
   { label: "No account", text: "Open it and it works. Nothing to create.", delay: 0 },
-  { label: "No server", text: "Your data never reaches us. We don't have it.", delay: 0.08 },
-  { label: "No selling", text: "No third parties. Nothing to share, ever.", delay: 0.16 },
+  { label: "No server", text: "Your data stays on your device. It never reaches us.", delay: 0.08 },
+  { label: "No tracking", text: "No analytics, no ad networks. Nothing phones home.", delay: 0.16 },
 ];
 
-// Value prop 01 · Privacy.
+// Value prop 02 · Privacy.
 export default function ValuePrivacy() {
   return (
     <section className="border-b" style={{ borderColor: "rgba(38,42,28,0.10)" }}>
@@ -21,15 +21,15 @@ export default function ValuePrivacy() {
       >
         <div>
           <div className="font-figtree font-semibold uppercase text-eyebrow text-ink-3">
-            01 · Privacy
+            02 · Privacy
           </div>
           <h2 className="font-figtree font-bold text-h2 text-ink" style={{ margin: "16px 0 0", textWrap: "balance" }}>
-            Your cycle is nobody&rsquo;s business.
+            Your data stays yours.
           </h2>
           <p className="font-petrona text-body text-ink-2" style={{ margin: "20px 0 0", maxWidth: "44ch" }}>
-            Everything lives on the phone. No account, no email, nothing to breach, nothing to
-            sell. There&rsquo;s no server behind Peridot — so there&rsquo;s nothing to hand over,
-            because there was never anything to hand over. Your privacy is just that — yours.
+            Everything you log lives on your device. There&rsquo;s no Peridot account and no Peridot
+            server, so your data never reaches us. Optional backup syncs through your own iCloud or
+            Drive — your account, your control.
           </p>
         </div>
         <div style={{ border: "1px solid rgba(38,42,28,0.12)", borderRadius: 18, overflow: "hidden" }}>

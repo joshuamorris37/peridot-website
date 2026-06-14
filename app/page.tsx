@@ -12,8 +12,8 @@ export default function Home() {
     <main>
       <Hero />
       <CategoryProblem />
-      <ValuePrivacy />
       <Ownership />
+      <ValuePrivacy />
       <Restraint />
       <HonestPredictions />
       <PrivacyPlumbing />

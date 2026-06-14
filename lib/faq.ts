@@ -20,7 +20,7 @@ export const FAQS: Faq[] = [
   },
   {
     q: "Can I get my data out, or delete it?",
-    a: "Both, any time. Export your full history as a file to move devices, or as CSV for yourself. Erase everything in Settings and it clears your phone and your private backup — we couldn’t recover it if you asked, because we never had it.",
+    a: "Both, any time. Export your full history as a file to move devices, or as CSV for yourself. Erase everything in Settings and it clears your phone and your backup — we have no access to your data.",
   },
   {
     q: "How do the predictions work?",

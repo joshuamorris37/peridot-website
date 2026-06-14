@@ -1,7 +1,7 @@
 import Reveal from "../Reveal";
 import PhoneUnlock from "../mockups/PhoneUnlock";
 
-// Value prop 02 · Ownership — panel ground, with the dark "Unlock" mockup.
+// Value prop 01 · Ownership — panel ground, with the dark "Unlock" mockup.
 export default function Ownership() {
   return (
     <section className="border-b" style={{ background: "var(--panel)", borderColor: "rgba(38,42,28,0.10)" }}>
@@ -16,7 +16,7 @@ export default function Ownership() {
       >
         <div>
           <div className="font-figtree font-semibold uppercase text-eyebrow text-ink-3">
-            02 · Ownership
+            01 · Ownership
           </div>
           <h2 className="font-figtree font-bold text-h2 text-ink" style={{ margin: "16px 0 0", textWrap: "balance" }}>
             Pay once. Own it forever.

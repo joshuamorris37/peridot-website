@@ -2,10 +2,10 @@ import Reveal from "../Reveal";
 import Mark from "../Mark";
 
 const ITEMS = [
-  { text: "Your cycle data is stored on your phone, with a backup in your own private cloud that we can't read.", delay: 0 },
-  { text: "There is no Peridot account and no Peridot database. We never see what you log.", delay: 0.07 },
+  { text: "Your cycle data is stored on your phone. Optional backup goes to your own private cloud — your account, your control.", delay: 0 },
+  { text: "There's no Peridot account and no Peridot database. Your data never reaches us.", delay: 0.07 },
   { text: "No analytics SDK, no trackers, no ad networks. Nothing phones home.", delay: 0.14 },
-  { text: "Erase everything in Settings, any time. It clears your phone and your private backup — and we couldn't recover it if you asked.", delay: 0.21 },
+  { text: "Erase everything in Settings, any time. It clears your phone and your backup. We have no access to your data.", delay: 0.21 },
 ];
 
 // Privacy as plumbing — the architecture is the argument, with the App Store

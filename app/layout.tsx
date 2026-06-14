@@ -28,25 +28,25 @@ const caveat = Caveat({
 export const metadata: Metadata = {
   metadataBase: new URL("https://peridot.app"),
   title: {
-    default: "Peridot — Your cycle is nobody's business.",
+    default: "Peridot — Just a period tracker. Pay once. Yours forever.",
     template: "%s · Peridot",
   },
   description:
-    "A privacy-first, pay-once period tracker. Everything stays on your phone. No account, no server, no subscription — one tool, bought once, yours forever.",
+    "A pay-once period tracker. Simple, private, yours forever.",
   applicationName: "Peridot",
   openGraph: {
-    title: "Peridot — Your cycle is nobody's business.",
+    title: "Peridot — Just a period tracker. Pay once. Yours forever.",
     description:
-      "A period tracker that keeps everything on your phone. No account, no server, no subscription. Pay once, own it forever.",
+      "A pay-once period tracker. Simple, private, yours forever.",
     siteName: "Peridot",
     type: "website",
     locale: "en_US",
   },
   twitter: {
     card: "summary",
-    title: "Peridot — Your cycle is nobody's business.",
+    title: "Peridot — Just a period tracker. Pay once. Yours forever.",
     description:
-      "A privacy-first, pay-once period tracker. No account, no server, no subscription.",
+      "A pay-once period tracker. Simple, private, yours forever.",
   },
 };
 

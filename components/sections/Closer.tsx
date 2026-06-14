@@ -17,7 +17,7 @@ export default function Closer() {
           className="font-figtree font-medium"
           style={{ fontSize: "clamp(14px,1.7vw,17px)", color: "rgba(241,243,234,0.58)", letterSpacing: "-0.005em" }}
         >
-          No ads. No subscriptions. No snooping.
+          No ads. No subscriptions.
         </div>
         <div
           className="font-figtree font-bold text-closer"

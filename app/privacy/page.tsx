@@ -23,7 +23,7 @@ const BLOCKS = [
   },
   {
     h: "Erase everything, any time.",
-    p: "One tap in Settings clears your phone and your private backup. We couldn't recover it if you asked — we never had it.",
+    p: "One tap in Settings clears your phone and your backup. We have no access to your data.",
   },
 ];
 

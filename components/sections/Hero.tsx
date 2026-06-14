@@ -41,15 +41,15 @@ export default function Hero() {
           className="pd-hero-1 m-0 font-figtree font-bold text-hero-h1 text-ink"
           style={{ textWrap: "balance", maxWidth: "13ch" }}
         >
-          Your cycle is nobody&rsquo;s business.
+          Just a period tracker. Pay once. Yours forever.
         </h1>
 
         <p
           className="pd-hero-2 font-petrona text-hero-sub text-ink-2"
           style={{ maxWidth: "46ch", margin: "clamp(20px,2.6vw,28px) auto 0" }}
         >
-          A period tracker that keeps everything on your phone. No account, no server, no
-          subscription — one tool, bought once, yours forever.
+          One job, done beautifully. Pay once — no subscription, no nags. Your data stays on
+          your phone.
         </p>
 
         <div
